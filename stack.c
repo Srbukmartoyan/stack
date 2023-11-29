@@ -168,4 +168,6 @@ int main()
     printf("peeked element %d\n", peek(stack));
     destroyStack(stack);
     print(stack);
+
+    return 0;
 }
