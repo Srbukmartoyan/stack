@@ -104,7 +104,7 @@ int pop(Stack *stack)
 }
 
 int peek(Stack *stack)
-{ // peekong at the top element without removing it
+{ // peeking a top element without removing it
     if (isEmpty(stack))
     {
         fprintf(stderr, "Error: Stack is empty\n");
